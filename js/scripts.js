@@ -1,6 +1,14 @@
-const toggleButton = document.getElementById('toggle-button');
-const navList = document.getElementById('nav-list');
+const myMenu = document.querySelector('.myMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+openMenu.addEventListener('click', show);
+closeMenu.addEventListener('click', close);
 
-toggleButton.addEventListener('click', () => {
-    navList.classList.toggle('active');
-})
+function show() {
+    myMenu.style.display = 'flex';
+    myMenu.style.top = '0';
+}
+
+function close() {
+    myMenu.style.top = '-100%';
+}

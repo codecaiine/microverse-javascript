@@ -1,76 +1,119 @@
+/** Import Font **/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+/** CSS Code **/
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: normal;
+  color: #091e42;
+  font-size: 20px;
+  background: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar {
-    background-color: darkblue;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20px;
+  background: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav-list {
-    list-style-type: none;
+.navbar .myMenu {
+  display: flex;
+  list-style: none;
 }
 
-.nav-list .list-item {
-    display: inline-block;
-    padding: 20px 10px;
+.navbar .logo a {
+  color: #6070ff;
+  text-decoration: none;
 }
 
-.navbar a {
-    color: white;
-    text-decoration: none;
+.navbar .myMenu li a {
+  display: inline-block;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #6070ff;
+  font-size: 18px;
 }
 
-.navbar a:hover {
-    color: aqua;
+.navbar .myMenu li a:hover {
+  background: rgb(255, 94, 0);
 }
 
-.menu {
+.navbar .openMenu {
+  font-size: 20px;
+  margin: 15px;
+  display: none;
+  cursor: pointer;
+  color: #6070ff;
+}
+
+.navbar .myMenu .closeMenu,
+.icons i {
+  font-size: 24px;
+  display: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar .logo {
+  margin: 15px;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .navbar .myMenu {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
+    background: #6070ff;
+    opacity: 0.7;
+    transition: top 1s ease;
     display: none;
-}
+  }
 
-.menu-line {
-    width: 20px;
-    height: 3px;
-    background-color: white;
-    margin-bottom: 4px;
-}
+  .navbar .myMenu .closeMenu {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 14px;
+  }
 
-@media all and ( max-media: 480px) {
-    .navbar {
-        flex-direction: column;
-        position: relative;
-    }
-    .navbar .logo {
-        width: 100%;
-    }
-    .menu {
-        display: block;
-        position: absolute;
-        right: 15px;
-        top: 15px;
-    }
-    .nav-list {
-        list-style-type: none;
-        width: 100%;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .nav-list .list-item {
-        display: block;
-        border-top: 1px solid white;
-    }
-    .navbar .logo {
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    .active {
-        display: block;
-    }
+  .navbar .openMenu {
+    display: block;
+  }
+
+  .navbar .myMenu li a {
+    font-size: 32px;
+    line-height: 44px;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .navbar .myMenu li a:hover {
+    background: none;
+    color: rgb(255, 123, 0);
+    font-size: 1.6rem;
+  }
+
+  .icons i {
+    display: inline-block;
+    padding: 12px;
+    color: #6070ff;
+  }
 }
