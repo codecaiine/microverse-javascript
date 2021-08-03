@@ -1,11 +1,15 @@
 <!doctype html>
+
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
     <link href="css/styles.css" rel="stylesheet">
 
     <title>Yannick-Noel Aka | Portfolio</title>
@@ -16,23 +20,20 @@
 
     <header>
         <nav class="navbar">
-
             <div class="logo">
                 <a href="#">My Logo</a>
             </div>
-            <ul class="nav-list" id="nav-list">
-                <li class="list-item">Portfolio</li>
-                <li class="list-item">About</li>
-                <li class="list-item">Contact</li>
-            </ul>
-
-            <div class="menu" id="toggle-button">
-                <div class="menu-line"></div>
-                <div class="menu-line"></div>
-                <div class="menu-line"></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <div class="myMenu">
+                <ul class="nav-list">
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
             </div>
-
         </nav>
+
     </header>
 <script src="js/scripts.js"></script>
 </body>
