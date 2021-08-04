@@ -1,31 +1,26 @@
 # Portfolio portfolio
 
 The project is inspired by the figma microverse template 1 (https://figma.com/)
-For the fourth project in your portfolio website:
+For this project about portfolio website , I implemented the mobile menu by using my recently acquired JavaScript knowledge.
 
-- We used media queries to make sure that the website displays correctly on desktop screens.
-- We used both grid and flex box
-- Checked and fixed linters errors
+- I used basic JavaScript syntax.
+- I used JavaScript to manipulate DOM elements.
+- I used JavaScript events.
 
+![screenshot](./image/demo.PNG)
 
-
-![screenshot](./image/sc-deskt.PNG)
-
-
-![screenshot](./image/sc-desktop.PNG)
-
-
-![screenshot](./image/sc-desktop2.PNG)
  
 
 ## Live Demo
 
-[Live Demo Link](https://portfoliocodecaiine.github.io/)
+[Live Demo Link](https://codecaiine.github.io/microverse-javascript/#contact)
  
 ## Built With
 
 - HTML
 - CSS
+- Javascript
+- Bootstrap 
 - HTML&CSS Linter
 
 ## Get Started
@@ -65,8 +60,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse to made it
-- My learning and coding partners
+- Thanks to Microverse
+- Paka OLIPLICHE
+- Ellis Mwanawabangona
 
 ## 📝 License
 
