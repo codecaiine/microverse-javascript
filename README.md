@@ -13,7 +13,7 @@ For this project about portfolio website , I implemented the mobile menu by usin
 
 ## Live Demo
 
-[Live Demo Link](https://codecaiine.github.io/microverse-javascript/#contact)
+[Live Demo Link](https://codecaiine.github.io/microverse-javascript/)
  
 ## Built With
 
