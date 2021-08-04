@@ -19,15 +19,23 @@ body {
 }
 
 .nav-bar {
-  background: #fff;
-  color: #fff;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 160px;
+  background-color: #fff;
 }
 
-.nav-bar .myMenu {
-  display: flex;
-  list-style: none;
+.nav-bar .myMenu .nav-list {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 10px;
+  color: black;
 }
 
 .nav-bar .logo a {
@@ -128,6 +136,15 @@ a.btn-connect {
   font-size: 21px;
   padding-top: 10px;
   padding-right: 8px;
+}
+
+@media screen and (min-width: 1080px) {
+  /* Desktop version */
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 @media all and (max-width: 800px) {
