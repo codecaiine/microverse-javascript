@@ -26,9 +26,9 @@
             <div class="openMenu"><i class="fa fa-bars"></i></div>
             <div class="myMenu">
                 <ul class="nav-list">
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <div class="closeMenu"><i class="fa fa-times"></i></div>
             </div>
@@ -56,7 +56,7 @@
         </div>
     </section>
 
-    <section class="work-section">
+    <section class="work-section" id="portfolio">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-12 ">
@@ -89,27 +89,87 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="col-md-4">
-                <h1 class="primary-text">I’m Yannick<br> Glad to see you!</h1>
-                <p>
-                    Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
-                </p>
-                <a href="#">Let's connect</a>
-                <ul class="media">
-                    <li class="social-media"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-medium"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-github"></i></a></li>
-                    <li class="social-media"><a href="#"><i class="fa fa-angellist"></i></a></li>
-                </ul>
-                <button type="button" class="btn btn-outline-primary btn-lg">See project</button>
-
+                <div class="about-bio">
+                    <h1 class="title">About<br> Myself</h1>
+                    <p>
+                        Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.
+                    </p>
+                    <a href="#">Let's connect</a>
+                    <ul class="media">
+                        <li class="social-media"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-medium"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-github"></i></a></li>
+                        <li class="social-media"><a href="#"><i class="fa fa-angellist"></i></a></li>
+                    </ul>
+                    <button type="button" class="btn btn-outline-primary btn-lg">Get my resume</button>
+                </div>
 
             </div>
             <div class="col-md-4">
-                DDD
+                <ul class="stacks">
+                    <li class="languages">
+
+                        <a href="#">
+                            <h2>Languages</h2>
+                        </a>
+                        <ul class="grid-container">
+                            <li>
+
+                                <img src="image/js.png" alt="js_logo">
+                                <p>JavaScript</p>
+
+                            </li>
+                            <li>
+
+                                <img src="image/html.png" alt="html_logo">
+                                <p>HTML</p>
+
+                            </li>
+
+                            <li>
+
+                                <img src="image/css.png" alt="css_logo">
+                                <p>CSS</p>
+
+                            </li>
+
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <h2>Frameworks</h2>
+                        </a>
+                    </li>
+
+                    <li>
+
+                        <a href="#">
+                            <h2>Skills</h2>
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-container">
+                <h2>Contact me</h2>
+                <p class="contact-p">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                <form action="https://formspree.io/f/xjvjejyb" method="POST">
+                    <input name="name" type="text" placeholder="Enter your name" required="" maxlength="30">
+                    <input name="email" type="email" placeholder="Enter your email" required="">
+                    <textarea name="message" placeholder="Leave a message" maxlength="500" required=""></textarea>
+                    <button type="submit" class="btn-one">Get in touch</button>
+                </form>
             </div>
         </div>
     </section>
