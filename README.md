@@ -1,19 +1,16 @@
 # Portfolio portfolio
 
 The project is inspired by the figma microverse template 1 (https://figma.com/)
-For this project about portfolio website , I implemented the mobile menu by using my recently acquired JavaScript knowledge.
+For this portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I store the information about the different projects in a JavaScript object.
 
-- I used basic JavaScript syntax.
-- I used JavaScript to manipulate DOM elements.
-- I used JavaScript events.
 
-![screenshot](./image/demo.PNG)
+![screenshot](./image/mobdemo.PNG)
 
  
 
 ## Live Demo
 
-[Live Demo Link](https://codecaiine.github.io/microverse-javascript/)
+[Live Demo Link](https://codecaiine.github.io/microverse-javascript)
  
 ## Built With
 
@@ -52,7 +49,7 @@ Run the command below from the Terminal:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/codecaiine/microverse-javascript/issues).
 
 ## Show your support
 
