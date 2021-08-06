@@ -21,6 +21,7 @@ For this portfolio website, is about of implemention of a client-side validation
 - Javascript
 - Bootstrap 
 - HTML&CSS Linter
+- Git
 
 ## Get Started
 
