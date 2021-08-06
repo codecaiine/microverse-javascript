@@ -1,8 +1,4 @@
-/** Import Font **/
-
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
-
-/** CSS Code **/
 
 * {
   box-sizing: border-box;
@@ -130,7 +126,6 @@ a.btn-connect {
 }
 
 @media screen and (min-width: 1080px) {
-  /* Desktop version */
   html,
   body {
     max-width: 100%;
@@ -233,7 +228,6 @@ a.btn-connect {
     color: #344563;
   }
 
-  /* Carousel */
   .carousel-indicators {
     list-style: none;
   }
@@ -526,7 +520,6 @@ a.btn-connect {
     color: purple;
   }
 
-  /* Style for Pair elements */
   .work-section .project:nth-child(2n) {
     background-color: white;
     display: flex;
@@ -542,7 +535,6 @@ a.btn-connect {
     background-color: transparent;
   }
 
-  /* style for impair elements */
   .work-section .project:nth-child(2n+1) img {
     background-color: transparent;
     width: 490px;
@@ -552,7 +544,6 @@ a.btn-connect {
     background-color: transparent;
   }
 
-  /* The Modal (background) */
   .modal {
     display: none;
     position: fixed;
@@ -567,7 +558,6 @@ a.btn-connect {
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  /* Modal Content */
   .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -577,7 +567,6 @@ a.btn-connect {
     top: -70px;
   }
 
-  /* The Close Button */
   .close {
     color: #aaa;
     float: right;
@@ -622,7 +611,6 @@ a.btn-connect {
 }
 
 @media all and (max-width: 800px) {
-  /* for mobile phone */
   html,
   body {
     max-width: 100%;
@@ -927,7 +915,6 @@ a.btn-connect {
     border: 1px solid #7f8cff;
   }
 
-  /* The Modal (background) */
   .modal {
     display: none;
     position: fixed;
@@ -942,7 +929,6 @@ a.btn-connect {
     background-color: rgba(0, 0, 0, 0.4);
   }
 
-  /* Modal Content */
   .modal-content {
     background-color: #fefefe;
     margin: auto;
@@ -952,7 +938,6 @@ a.btn-connect {
     top: -70px;
   }
 
-  /* The Close Button */
   .close {
     color: #aaa;
     float: right;
