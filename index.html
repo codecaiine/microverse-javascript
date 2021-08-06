@@ -247,8 +247,9 @@
             <div class="contact-container">
                 <h2>Contact me</h2>
                 <p class="contact-p">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-                <form action="https://formspree.io/f/xjvjejyb" method="POST" id="form-contact">
-                    <input name="name" id="fname" type="text" placeholder="Enter your name" required maxlength="30">
+                <h3 id="hi">Enter your data</h3>
+                <form method="POST" id="form-contact">
+                    <input name="fname" id="fname" type="text" placeholder="Enter your name" required maxlength="30">
                     <span id="name-error"></span>
                     <input name="email" id="email" type="email" placeholder="Enter your email" required>
                     <span id="email-error"></span>
@@ -341,6 +342,7 @@
     <script src="./js/menu.js"></script>
     <script src="./js/popup.js"></script>
     <script src="./js/form-validation.js"></script>
+    <script src="./js/local-storage.js"></script>
 </body>
 
 
