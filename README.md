@@ -1,10 +1,12 @@
 # Portfolio portfolio
 
 The project is inspired by the figma microverse template 1 (https://figma.com/)
-For this portfolio website, I implemented a popup window that includes the project details in both desktop and mobile. In order to do that, I store the information about the different projects in a JavaScript object.
+For this portfolio website, is about of implemention of a client-side validation of the data in the contact form before submission.
+- Process user input according to business rules.
+- Use client-side validation to catch and throw errors in the UI.
 
 
-![screenshot](./image/mobdemo.PNG)
+![screenshot](./image/validationdemo.PNG)
 
  
 
@@ -19,6 +21,7 @@ For this portfolio website, I implemented a popup window that includes the proje
 - Javascript
 - Bootstrap 
 - HTML&CSS Linter
+- Git
 
 ## Get Started
 
