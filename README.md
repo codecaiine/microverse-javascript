@@ -1,12 +1,10 @@
 # Portfolio portfolio
 
 The project is inspired by the figma microverse template 1 (https://figma.com/)
-For this portfolio website, is about of implemention of a client-side validation of the data in the contact form before submission.
-- Process user input according to business rules.
-- Use client-side validation to catch and throw errors in the UI.
+For this portfolio website, we save the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 
-![screenshot](./image/validationdemo.PNG)
+![screenshot](./image/demolocalstore.PNG)
 
  
 
